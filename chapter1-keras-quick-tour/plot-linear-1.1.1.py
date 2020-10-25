@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 want_noise = True
 # grayscale plot, comment if color is wanted
+plt.figure(figureSize=(18,9))
 plt.style.use('grayscale')
 
 # generate data bet -1,1 interval of 0.2
